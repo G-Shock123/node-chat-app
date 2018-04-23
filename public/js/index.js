@@ -5,10 +5,7 @@
 
 
 
-    socket.emit('createMessage',{
-    from: 'Yah bwoi',
-    text: 'aint nothing but a chikecn wing'
-  });
+
 })
   socket.on('disconnect',function (){
     console.log('Disconnected from server');
